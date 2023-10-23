@@ -5,13 +5,13 @@ from setuptools import setup
 with open('README.md') as f:
     long_description = f.read()
 
-setup(name='pipelinewise-tap-postgres',
+setup(name='process-street-tap-postgres',
       version='2.1.0',
       description='Singer.io tap for extracting data from PostgresSQL - PipelineWise compatible',
       long_description=long_description,
       long_description_content_type='text/markdown',
-      author='Wise',
-      url='https://github.com/transferwise/pipelinewise-tap-postgres',
+      author='Process Street',
+      url='https://github.com/transferwise/process-street-tap-postgres',
       classifiers=[
           'License :: OSI Approved :: GNU Affero General Public License v3',
           'Programming Language :: Python :: 3 :: Only'
