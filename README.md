@@ -1,4 +1,4 @@
-# pipelinewise-tap-postgres
+# process-street-tap-postgres
 
 [![PyPI version](https://badge.fury.io/py/pipelinewise-tap-postgres.svg)](https://badge.fury.io/py/pipelinewise-tap-postgres)
 [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/pipelinewise-tap-postgres.svg)](https://pypi.org/project/pipelinewise-tap-postgres/)
@@ -7,6 +7,15 @@
 [Singer](https://www.singer.io/) tap that extracts data from a [PostgreSQL](https://www.postgresql.com/) database and produces JSON-formatted data following the [Singer spec](https://github.com/singer-io/getting-started/blob/master/docs/SPEC.md).
 
 This is a [PipelineWise](https://transferwise.github.io/pipelinewise) compatible tap connector.
+
+## IMPORTANT
+
+This is a custom fork that adds support for `ltree` to the `pipelinewise-tap-postgres` tap.
+
+If a new release is made from the upstream repo, this fork will need to be updated to match, deployed again to PyPI,
+and then the `Dockerfile` updated to match the new version number.
+
+You can find the PyPI API key in 1Password.
 
 ## How to use it
 
