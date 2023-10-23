@@ -11,7 +11,7 @@ setup(name='process-street-tap-postgres',
       long_description=long_description,
       long_description_content_type='text/markdown',
       author='Process Street',
-      url='https://github.com/transferwise/process-street-tap-postgres',
+      url='https://github.com/process-street/process-street-tap-postgres',
       classifiers=[
           'License :: OSI Approved :: GNU Affero General Public License v3',
           'Programming Language :: Python :: 3 :: Only'
