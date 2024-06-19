@@ -1,7 +1,7 @@
 # process-street-tap-postgres
 
-[![PyPI version](https://badge.fury.io/py/pipelinewise-tap-postgres.svg)](https://badge.fury.io/py/pipelinewise-tap-postgres)
-[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/pipelinewise-tap-postgres.svg)](https://pypi.org/project/pipelinewise-tap-postgres/)
+[![PyPI version](https://badge.fury.io/py/pipelinewise-tap-postgres.svg)](https://badge.fury.io/py/process-street-tap-postgres)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/pipelinewise-tap-postgres.svg)](https://pypi.org/project/process-street-tap-postgres/)
 [![License: MIT](https://img.shields.io/badge/License-GPLv3-yellow.svg)](https://opensource.org/licenses/GPL-3.0)
 
 [Singer](https://www.singer.io/) tap that extracts data from a [PostgreSQL](https://www.postgresql.com/) database and produces JSON-formatted data following the [Singer spec](https://github.com/singer-io/getting-started/blob/master/docs/SPEC.md).
@@ -16,6 +16,15 @@ If a new release is made from the upstream repo, this fork will need to be updat
 and then the `Dockerfile` updated to match the new version number.
 
 You can find the PyPI API key in 1Password.
+
+To create a new PyPI package run:
+```bash
+make venv
+. ./venv/bin/activate
+python setup.py sdist
+pip install twine
+twine upload dist/*
+```
 
 ## How to use it
 
