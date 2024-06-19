@@ -1,7 +1,13 @@
+2.2.0 (2024-06-19)
+-------------------
+**Changes**
+- Add support for "interval" type
+
 2.1.0 (2023-03-30)
 -------------------
 **Changes**
-- INCREMENTAL: An optional config `limit` to be appended to incremental queries to limit their runtime.  
+- INCREMENTAL: An optional config `limit` to be appended to incremental queries to limit their runtime.
+- Add support for "ltree" type
 
 **Fixes**
 - INCREMENTAL: `ORDER BY` added back to query in case replication key value is None. 
