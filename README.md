@@ -1,3 +1,6 @@
+> [!IMPORTANT]  
+> PipelineWise has consolidated all taps and targets into a single repository. As a result, this repository has been superseded by https://github.com/process-street/pipelinewise.
+
 # process-street-tap-postgres
 
 [![PyPI version](https://badge.fury.io/py/pipelinewise-tap-postgres.svg)](https://badge.fury.io/py/process-street-tap-postgres)
